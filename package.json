@@ -10,5 +10,13 @@
   "license": "ISC",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
   }
 }
