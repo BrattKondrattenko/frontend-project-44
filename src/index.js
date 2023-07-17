@@ -63,7 +63,7 @@ const createNumbersForProgression = () => {
   }
   const correctAnswer = progression[hiddenNumber].toString();
   progression[hiddenNumber] = '..';
-  console.log(`Question: ${[...progression]}`);
+  console.log(`Question: ${[progression.join(' ')]}`);
   return correctAnswer;
 };
 
